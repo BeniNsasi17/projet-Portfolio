@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: rgb(224, 222, 222);
+}
+ul{
+    list-style-position: inside;
+}
+img{
+    border: solid white;
+    background: white;
+}

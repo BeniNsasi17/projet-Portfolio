@@ -1,0 +1,113 @@
+/*----------------------Head----------------*/
+body{
+   padding: 1rem 150px 0px 150px;
+   min-height: 100vh;
+   background: #dedcdc;
+}
+html{
+   scroll-behavior: smooth;
+}
+.header{
+   border: 1px;
+}
+.header title{
+   color: solid blueviolet
+}
+/*-----------------Header------------*/
+.navbar{
+   display:flex;
+   justify-content: space-between;
+}
+a{
+   text-decoration: none;
+   color: black;
+}
+.nav--link{
+   margin-left: 2rem;
+   align-items: center;
+}
+/*-------------------Main----------------*/
+main{
+   min-width: 500px;
+   width: 90%;
+   margin: 0 auto;
+}
+.flexbox li{
+     list-style: none;
+     height: 400px;
+     width: 400px;
+     margin: 40px;
+}
+.flexbox ul{
+   display: flex;
+   justify-content: center;
+}
+img{
+   height: 400px;
+   width: 400px;
+   border-radius: 200px;
+   object-fit: cover;
+}
+#circle1{
+   height: 100px;
+   width: 100px;
+   background: rgb(214, 197, 3);
+   position:absolute;
+   border-radius: 150px;
+   left: 50%;
+   bottom: 43%;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#circle2{
+   height: 100px;
+   width: 100px;
+   background:red;
+   position: absolute;
+   border-radius: 150px;
+   left: 60%;
+   bottom: 43%;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#circle3{
+   height: 100px;
+   width: 100px;
+   background: turquoise;
+   position: absolute;
+   border-radius: 150px;
+   left: 70%;
+   bottom: 43%;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+/*----------------------footer-------------------*/
+.image{
+   width: 20px;
+   height: 15px;
+}
+footer{
+   flex-shrink: 0;
+   border-top: 1px solid #000 ;
+   width: 100%;
+   margin-top: 250px ;
+}
+.end{
+   width: 1200px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: start;
+   font-size: 20px;
+   padding: 50px 0 100px;
+   justify-content: space-between;
+}
+.end ul{
+   list-style: none;
+}

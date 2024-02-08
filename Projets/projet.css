@@ -1,0 +1,100 @@
+/*----------------------Head----------------*/
+body{
+    padding: 1rem 150px 0px 150px;
+    min-height: 100vh;
+    min-width: 100vh;
+    background: #dedcdc;
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    border: 1px
+}
+.header title{
+    color: solid blueviolet
+}
+/*-----------------Header------------*/
+.navbar{
+    display:flex;
+    justify-content: space-between;
+ }
+.classbar{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nav--link{
+    margin-left: 2rem;
+    align-items: center;
+}
+/*-------------------Main----------------*/
+main{
+    max-width: max-content;
+    width: 90%;
+    margin: 0 auto;
+    height: 90%;
+    align-items: center;
+    justify-content: center;
+}
+.flex{
+    height: 400px;
+    width: 400px;
+    margin: 50px;
+}
+.flex li{
+    list-style: none;
+}
+.flexbox{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.box{
+    margin-top: 10%;
+}
+.box img{
+     height: 200px;
+     width: 300px;
+     border-radius: 40px;
+}
+.box h5{
+    text-align: center;
+}
+.project_title{
+    margin-right: 60%;
+}
+.project_dr_norman{
+    margin-top: 10%;
+}
+.project_responsive{
+    margin-top: 20%;
+}
+/*----------------------footer-------------------*/
+footer{
+    flex-shrink: 0;
+    border-top: 1px solid #000;
+    width: 100%;
+    margin-top: 250px;
+}
+.image{
+    width: 20px;
+    height: 15px;
+}
+.footer-contact{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 20px;
+    padding: 50px 0 100px;
+    justify-content: space-between;
+}
+.footer-contact ul{
+    list-style: none;
+}

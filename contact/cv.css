@@ -1,0 +1,107 @@
+/*----------------------Head----------------*/
+body{
+    padding: 1rem 150px 0px 150px;
+    min-height: 100vh;
+    min-width: 100vh;
+    background: #dedcdc;
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    border: 1px
+}
+.header title{
+    color: solid blueviolet
+}
+/*-----------------Header------------*/
+.classbar{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nav--link{
+    margin-left: 2rem;
+    align-items: center;
+}
+/*-------------------Main----------------*/
+main{
+    min-width: 500px;
+    width: 90%;
+    margin: 0 auto;
+    height: 90%;
+    display: flex;
+}
+.flex{
+    height: 400px;
+    width: 400px;
+    margin: 50px;
+}
+main ul{
+    list-style: none;
+}
+.box{
+    height: 400px;
+    width: 400px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+.champ{
+    height: 30px;
+}
+.end{
+    height: 150px;
+}
+input[type="button"]{
+     height: 100px;
+     width: 100px;
+     background-color: orange;
+     border-radius: 150px;
+     bottom: 45%;
+     right: 15%;
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+button{
+    background: orange;
+    border: solid orange;
+}
+form{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    align-items: end;
+}
+footer{
+    flex-shrink: 0;
+    border-top: 1px solid #000;
+    width: 100%;
+    margin-top: 250px;
+}
+/*----------------------footer-------------------*/
+.image{
+    width: 20px;
+    height: 15px;
+}
+.footer-contact{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 20px;
+    padding: 50px 0 100px;
+    justify-content: space-between;
+     }
+.footer-contact ul{
+    list-style: none;
+}
+
